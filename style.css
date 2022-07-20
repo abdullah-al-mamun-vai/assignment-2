@@ -76,7 +76,7 @@ a.watch-btn:hover {
 }
 
 a.watch-btn::after {
-    width: 50px;
+    width: 20%;
     height: 3px;
     background: #e9dfe1;
     content: '';
