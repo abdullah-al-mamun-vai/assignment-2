@@ -393,7 +393,7 @@ mobile view here
 
     .btn-menu a {
         margin: 10px 0;
-        border: 1px solid #000;
+        border: 1px solid #00000047;
     }
 
     /* footer area start  */
@@ -460,7 +460,7 @@ tablet view here
 
     .btn-menu a {
         padding: 15px 30px;
-        border: 1px solid #000;
+        border: 1px solid #00000047;
     }
 
     /* blogs area start  */
