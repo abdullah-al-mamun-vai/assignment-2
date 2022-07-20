@@ -51,6 +51,7 @@ h2.head-title {
     font-weight: 500;
 }
 
+/* header btn start  */
 a.watch-btn {
     display: inline-block;
     text-decoration: none;
@@ -61,6 +62,7 @@ a.watch-btn {
     text-transform: capitalize;
     transition: .3s;
     font-size: 20px;
+    position: relative;
 }
 
 a.watch-btn i {
@@ -73,7 +75,49 @@ a.watch-btn:hover {
     color: #101920;
 }
 
+a.watch-btn::after {
+    width: 50px;
+    height: 3px;
+    background: #e9dfe1;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    animation: btn-border 2s ease-out infinite;
+}
 
+a.watch-btn:hover::after {
+    background-color: #101920;
+}
+
+@keyframes btn-border {
+    0% {
+        left: 0%;
+    }
+
+    25% {
+        left: 25%;
+        border-radius: 0px;
+    }
+
+    50% {
+        left: 50%;
+        border-radius: 0px;
+
+    }
+
+    75% {
+        left: 77%;
+    }
+
+    100% {
+        border: 0px;
+    }
+
+}
+
+/* header btn end  */
 
 /* header area end 
 
